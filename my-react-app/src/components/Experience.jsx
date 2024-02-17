@@ -11,7 +11,6 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
@@ -52,6 +51,16 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+
+      {experience.image && (
+        <div className="mt-4">
+          <img
+            src={experience.image}
+            alt={experience.company_name}
+            className="w-full"
+          />
+        </div>
+      )}
     </VerticalTimelineElement>
   );
 };
@@ -64,7 +73,7 @@ const Experience = () => {
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
+          Achievements
         </h2>
       </motion.div>
 

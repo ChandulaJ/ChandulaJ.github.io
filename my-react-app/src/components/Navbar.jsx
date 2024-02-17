@@ -42,12 +42,20 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-20 h-20 object-contain" />
+          <img src={logo} alt="logo" className="w-24 h-24 object-contain" />
           <p>
-            <p className="text-white text-[18px] font-bold cursor-pointer flex ">
+            <p className="text-white text-[20px] font-bold cursor-pointer flex ">
               Chandula Jayathilake&nbsp; <br />
             </p>
-            <span className="block font-"> | Computer Engineer</span>
+            <span></span>
+            <span className="block text-white text-[15px] ">
+              {" "}
+              | Computer Engineering Undergraduate
+            </span>
+            <span className="block text-white text-[15px]">
+              {" "}
+              | Faculty of Engineering, University of Ruhuna
+            </span>
           </p>
         </Link>
 

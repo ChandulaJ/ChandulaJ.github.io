@@ -1,8 +1,10 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  devops,
+  flutter,
+  linux,
+  ml,
+  network,
+  cybersecurity,
   javascript,
   typescript,
   html,
@@ -24,6 +26,7 @@ import {
   tripguide,
   threejs,
 } from "../assets";
+import eminence3 from "../assets/photos/eminence3.jpg";
 
 export const navLinks = [
   {
@@ -42,20 +45,29 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "DevOps",
+    icon: devops,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Flutter",
+    icon: flutter,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Linux",
+    icon: linux,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Machine Learning",
+    icon: ml,
+  },
+
+  {
+    title: "Networking",
+    icon: network,
+  },
+  {
+    title: "Cybersecurity",
+    icon: cybersecurity,
   },
 ];
 
@@ -116,55 +128,82 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "IEEE Xtreme 17.0 2023",
+    company_name: "IEEE",
+    image:
+      "https://media.licdn.com/dms/image/D562DAQGYMAdwgcHvCQ/profile-treasury-document-cover-images_480/0/1703993759808?e=1708786800&v=beta&t=QwxcwiSmCSvtGxSxQ_WA7Osj4bHIfadTv4HHlr-Fxvo",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "October 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As the team leader of Team UniMatrix at the IEEE Xtreme 17.0 2023 competition secured the 2nd position at the University of Ruhuna and ranked 88th in the national standings for Sri Lanka. ",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Eminence 3.0 - 2023",
+    company_name: "IEEE Student Branch University of Ruhuna ,WIE",
+    image: eminence3,
+    icon: starbucks,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "October 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As a member of Team UniMatrix, achieved Second runner-up at Eminence 3.0",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Mora UXplore 1.0 - Inter University UI/UX design Competition",
+    company_name: "IEEE Student Branch University of Moratuwa",
+    image: "",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "October 2023",
+    points: ["As the team leader of Team UniMatrix , became semi-finalists"],
+  },
+  {
+    title: "HaXtreme1.0 - Inter University Coding Competition",
+    company_name: "IEEE Student Branch University of Ruhuna",
+    image: "",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "October 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As a member of Team AROMATIC, achieved Second runner-up of HaXtreme1.0 2023",
+    ],
+  },
+
+  {
+    title: "HaXtreme1.0 - Inter University Coding Competition",
+    company_name: "IEEE Student Branch University of Ruhuna",
+    image: "",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "October 2023",
+    points: [
+      "As a member of Team AROMATIC, achieved Second runner-up of HaXtreme1.0 2023",
+    ],
+  },
+
+  {
+    title: "HaXtreme1.0 - Inter University Coding Competition",
+    company_name: "IEEE Student Branch University of Ruhuna",
+    image: "",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "October 2023",
+    points: [
+      "As a member of Team AROMATIC, achieved Second runner-up of HaXtreme1.0 2023",
+    ],
+  },
+
+  {
+    title: "HaXtreme1.0 - Inter University Coding Competition",
+    company_name: "IEEE Student Branch University of Ruhuna",
+    image: "",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "October 2023",
+    points: [
+      "As a member of Team AROMATIC, achieved Second runner-up of HaXtreme1.0 2023",
     ],
   },
 ];
