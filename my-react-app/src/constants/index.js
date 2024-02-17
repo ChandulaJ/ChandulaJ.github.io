@@ -35,7 +35,11 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Achievements",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -156,7 +160,7 @@ const experiences = [
     image: "",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "October 2023",
+    date: "May 2023",
     points: ["As the team leader of Team UniMatrix , became semi-finalists"],
   },
   {
@@ -165,47 +169,50 @@ const experiences = [
     image: "",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "October 2023",
+    date: "October 2022",
     points: [
       "As a member of Team AROMATIC, achieved Second runner-up of HaXtreme1.0 2023",
+    ],
+  },
+  {
+    title: "IEEE Xtreme 16.0 2022",
+    company_name: "IEEE",
+    image:
+      "https://media.licdn.com/dms/image/D562DAQHxlDUBKRK0cQ/profile-treasury-document-cover-images_480/0/1708181331088?e=1708786800&v=beta&t=5OlrrxpVOInsv5G2estoZcJvgUNr2STwWfKqwTJe2uA",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "October 2022",
+    points: [
+      "As the team member of Team BitBorg at the IEEE Xtreme 16.0 2022 competition secured the 4th position at the University of Ruhuna and ranked 114th in the national standings for Sri Lanka. ",
+    ],
+  },
+  {
+    title: "INSL - All island Ideathon",
+    company_name: "IEEE Student Branch University of Ruhuna",
+    image:
+      "https://media.licdn.com/dms/image/D562DAQGcuCsutoZjrQ/profile-treasury-image-shrink_800_800/0/1707577037745?e=1708786800&v=beta&t=3TcYEGuFyb1iyrOU2SSgZBoqzLHuW9bwlmj1tJbiDoQ",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "October 2022",
+    points: [
+      "As the team leader of Team Unimatrix , became the Champions at the INSL Southern provincial competition 2022 which was conducted by IEEE of University of Ruhuna.",
     ],
   },
 
   {
-    title: "HaXtreme1.0 - Inter University Coding Competition",
-    company_name: "IEEE Student Branch University of Ruhuna",
+    title: "CyberZee '22 - Inter-University Quiz Competition on Cyber Security",
+    company_name: "ISACA",
     image: "",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "October 2023",
+    date: "March 2022",
     points: [
-      "As a member of Team AROMATIC, achieved Second runner-up of HaXtreme1.0 2023",
+      "As a member of Team Aromatic, achieved Second Runner-up at CyberZee '22 Inter-University Quiz Competition on Cyber Security",
     ],
   },
 
-  {
-    title: "HaXtreme1.0 - Inter University Coding Competition",
-    company_name: "IEEE Student Branch University of Ruhuna",
-    image: "",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "October 2023",
-    points: [
-      "As a member of Team AROMATIC, achieved Second runner-up of HaXtreme1.0 2023",
-    ],
-  },
 
-  {
-    title: "HaXtreme1.0 - Inter University Coding Competition",
-    company_name: "IEEE Student Branch University of Ruhuna",
-    image: "",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "October 2023",
-    points: [
-      "As a member of Team AROMATIC, achieved Second runner-up of HaXtreme1.0 2023",
-    ],
-  },
+ 
 ];
 
 const testimonials = [
