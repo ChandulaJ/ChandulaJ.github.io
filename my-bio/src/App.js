@@ -1,20 +1,23 @@
-import React from "react";
-import "./App.css";
-import BioComponent from "./BioComponent";
+import logo from './logo.svg';
+import './App.css';
 
-// App component containing the main structure of the website
 function App() {
   return (
-    <div className="app-container">
-      <header>
-        <h1>Welcome to My Personal Website</h1>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
-      <nav>{/* Navigation links can be added here if needed */}</nav>
-      <main>
-        <BioComponent />
-        {/* Additional components/content can be added here */}
-      </main>
-      <footer>{/* Footer content can be added here */}</footer>
     </div>
   );
 }
