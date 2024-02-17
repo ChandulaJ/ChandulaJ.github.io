@@ -1,7 +1,6 @@
 import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { FiMail, FiGithub, FiLinkedin } from "react-icons/fi"; // Import icons from react-icons library
 
@@ -52,4 +51,4 @@ const Contact = () => {
   );
 };
 
-export default SectionWrapper(Contact, "");
+export default SectionWrapper(Contact, "contact");
