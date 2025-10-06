@@ -1,73 +1,130 @@
-# Welcome to your Lovable project
+# Chandula Jayathilake - Portfolio Website
 
-## Project info
+Welcome to my personal portfolio website! This is a modern, responsive portfolio showcasing my journey as a DevOps Engineering undergraduate, projects, certifications, and professional experience.
 
-**URL**: https://lovable.dev/projects/51eea23a-19c7-42d3-bf66-f60024ff6984
+## 🌟 Live Demo
 
-## How can I edit this code?
+Visit my portfolio at: [chandulaJ.github.io](https://chandulaJ.github.io)
 
-There are several ways of editing your application.
+## 📋 About
 
-**Use Lovable**
+I'm Chandula Jayathilake, a passionate DevOps Engineering undergraduate with hands-on experience in cloud infrastructure, automation, and building scalable systems. This portfolio showcases my:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/51eea23a-19c7-42d3-bf66-f60024ff6984) and start prompting.
+- Professional experience and timeline
+- Technical projects and achievements
+- Certifications and education
+- Skills and endorsements
+- Articles and contributions
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Features
 
-**Use your preferred IDE**
+- **Modern Design**: Clean, professional, and responsive design
+- **Interactive Components**: Smooth animations and particle effects
+- **Dark/Light Mode**: Theme toggle for better user experience
+- **Mobile Responsive**: Optimized for all device sizes
+- **Contact Form**: Integrated contact functionality
+- **Performance Optimized**: Fast loading and smooth navigation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Technologies Used
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Frontend Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **UI Components**: shadcn/ui with Radix UI primitives
+- **Styling**: Tailwind CSS
+- **Animations**: Custom CSS animations with particle effects
+- **Form Handling**: React Hook Form with Zod validation
+- **Email Service**: EmailJS for contact form
+- **Icons**: Lucide React
+- **Theme**: Next Themes for dark/light mode
 
-Follow these steps:
+## 🚀 Getting Started
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Prerequisites
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Node.js (v18 or higher)
+- npm or yarn package manager
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Installation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+1. Clone the repository:
+```bash
+git clone https://github.com/ChandulaJ/ChandulaJ.github.io.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd ChandulaJ.github.io
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+5. Open your browser and visit `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📁 Project Structure
 
-**Use GitHub Codespaces**
+```
+src/
+├── components/          # React components
+│   ├── ui/             # Reusable UI components
+│   ├── Hero.tsx        # Hero section
+│   ├── Projects.tsx    # Projects showcase
+│   ├── Experience.tsx  # Professional timeline
+│   └── ...
+├── assets/             # Static assets (images, icons)
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+└── pages/              # Page components
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🔧 Available Scripts
 
-## What technologies are used for this project?
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-This project is built with:
+## 🎨 Key Sections
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Hero**: Introduction and quick links
+- **Experience**: Professional timeline with detailed roles
+- **Projects**: Showcase of technical projects
+- **Education**: Academic background
+- **Certifications**: Professional certifications and achievements
+- **Skills**: Technical skills and tools
+- **Articles**: Technical articles and blog posts
+- **Contact**: Get in touch form
 
-## How can I deploy this project?
+## 📱 Responsive Design
 
-Simply open [Lovable](https://lovable.dev/projects/51eea23a-19c7-42d3-bf66-f60024ff6984) and click on Share -> Publish.
+The portfolio is fully responsive and optimized for:
+- Desktop (1024px+)
+- Tablet (768px - 1023px)
+- Mobile (320px - 767px)
 
-## Can I connect a custom domain to my Lovable project?
+## 🌙 Theme Support
 
-Yes, you can!
+Built-in dark and light mode support with smooth transitions and user preference persistence.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📞 Contact
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Feel free to reach out to me:
+
+- **Email**: chandulajayathilake@gmail.com
+- **LinkedIn**: [chandula-jayathilake](https://www.linkedin.com/in/chandula-jayathilake/)
+- **GitHub**: [ChandulaJ](https://github.com/ChandulaJ)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+⭐ If you like this portfolio, please give it a star on GitHub!
