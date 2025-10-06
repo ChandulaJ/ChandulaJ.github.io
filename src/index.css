@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modern DevOps Portfolio Design System */
+
+@layer base {
+  :root {
+    /* Dark tech background */
+    --background: 218 27% 8%;
+    --foreground: 0 0% 95%;
+
+    /* Card system - Slightly lighter than background */
+    --card: 218 20% 12%;
+    --card-foreground: 0 0% 95%;
+
+    /* Popover */
+    --popover: 218 20% 12%;
+    --popover-foreground: 0 0% 95%;
+
+    /* Primary - Bright cyan for contrast */
+    --primary: 195 100% 50%;
+    --primary-foreground: 218 27% 8%;
+    --primary-hover: 195 100% 55%;
+
+    /* Secondary - Dark with subtle blue tint */
+    --secondary: 218 15% 20%;
+    --secondary-foreground: 0 0% 95%;
+    --secondary-hover: 218 15% 25%;
+
+    /* Muted */
+    --muted: 218 15% 15%;
+    --muted-foreground: 218 15% 65%;
+
+    /* Accent - Vibrant cyan */
+    --accent: 195 100% 55%;
+    --accent-foreground: 218 27% 8%;
+    --accent-hover: 195 100% 60%;
+
+    /* Dark tech gradients */
+    --tech-gradient: linear-gradient(135deg, hsl(218 20% 12%), hsl(195 100% 20%));
+    --hero-gradient: linear-gradient(135deg, hsl(218 27% 8%), hsl(218 20% 12%));
+
+    /* Destructive */
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders and inputs - Darker for dark theme */
+    --border: 218 15% 25%;
+    --input: 218 15% 20%;
+    --ring: 195 100% 50%;
+
+    /* Success/DevOps green */
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+
+    /* Warning */
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    /* Dark shadows with more opacity */
+    --shadow-sm: 0 2px 4px -2px hsl(0 0% 0% / 0.3);
+    --shadow-md: 0 8px 16px -4px hsl(0 0% 0% / 0.3);  
+    --shadow-lg: 0 20px 32px -8px hsl(0 0% 0% / 0.4);
+    --shadow-glow: 0 0 32px hsl(195 100% 50% / 0.5);
+
+    --radius: 12px;
+
+    /* Sidebar - Dark theme */
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Gradient backgrounds */
+  .gradient-tech {
+    background: var(--tech-gradient);
+  }
+
+  .gradient-hero {
+    background: var(--hero-gradient);
+  }
+
+  /* Shadow utilities */
+  .shadow-custom-sm {
+    box-shadow: var(--shadow-sm);
+  }
+
+  .shadow-custom-md {
+    box-shadow: var(--shadow-md);
+  }
+
+  .shadow-custom-lg {
+    box-shadow: var(--shadow-lg);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  /* Animation utilities */
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.4s ease-out;
+  }
+
+  /* Hover effects */
+  .hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .hover-glow:hover {
+    box-shadow: var(--shadow-glow);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
