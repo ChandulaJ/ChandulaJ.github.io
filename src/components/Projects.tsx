@@ -3,12 +3,20 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Github, ExternalLink, Star } from "lucide-react";
 
+// Import project images
+import networkSimImg from "@/assets/projects/network-sim.jpg";
+import auctionhubImg from "@/assets/projects/auctionhub.png";
+import ttcicdImg from "@/assets/projects/ttcicd.jpg";
+import lpImg from "@/assets/projects/lp.png";
+import traveltrailsImg from "@/assets/projects/traveltrails.jpeg";
+import hlImg from "@/assets/projects/hl.png";
+
 const projects = [
   {
     title: "Enhancing NS-3 for Distributed Network Simulation",
     description: "Final Year Group Project focused on enhancing NS-3 network simulator with distributed simulation capabilities and automated cloud deployment.",
     longDescription: "Designed and implemented CI/CD pipelines using Azure DevOps for automated builds, testing, and deployments. Automated cloud infrastructure provisioning and configuration using Terraform and Ansible, enabling seamless deployment of NS-3 simulation environments on AWS.",
-    image: "src/assets/projects/network-sim.jpg",
+    image: networkSimImg,
     technologies: ["Azure DevOps", "Terraform", "Ansible", "AWS", "NS-3", "CI/CD"],
     githubUrl: "",
     demoUrl: null,
@@ -20,7 +28,7 @@ const projects = [
     title: "AuctionHub",
     description: "Complete GitOps CI/CD pipeline for a microservices auction platform with Kubernetes orchestration and comprehensive monitoring.",
     longDescription: "Designed and implemented a complete GitOps CI/CD pipeline for a microservices auction platform using GitHub Actions for automated Docker builds and ArgoCD for continuous deployment. Orchestrated full Kubernetes infrastructure using declarative YAML manifests with persistent storage (EBS CSI), monitoring stack (Jaeger, DataDog), and infrastructure services (MySQL, Redis, NATS).",
-    image: "src/assets/projects/auctionhub.png",
+    image: auctionhubImg,
     technologies: ["GitOps", "GitHub Actions", "ArgoCD", "Kubernetes", "Docker", "Jaeger", "DataDog", "MySQL", "Redis"],
     githubUrl: "https://github.com/PramithaMJ/argocd-auctionhub",
     demoUrl: null,
@@ -33,7 +41,7 @@ const projects = [
     title: "TravelTrails Web App CI/CD",
     description: "Comprehensive CI/CD pipeline implementation for automated build, test, and deployment processes of TravelTrails application.",
     longDescription: "Designed and implemented a CI/CD pipeline to automate build, test, and deployment processes of TravelTrails app. Integrated SonarQube for code quality checks, Docker for containerization, and Jenkins (master-slave) for build automation. Utilized Terraform for infrastructure provisioning, Ansible for configuration management, and Docker Compose for deployments. Pushed artifacts to DockerHub and set up email notifications in this project.",
-    image: "src/assets/projects/ttcicd.jpg",
+    image: ttcicdImg,
     technologies: ["Jenkins", "Docker", "SonarQube", "Terraform", "Ansible", "DockerHub", "CI/CD"],
     githubUrl: "https://github.com/ChandulaJ/TravelTrails-MERN-stack-app",
     demoUrl: null,
@@ -45,7 +53,7 @@ const projects = [
     title: "LifePill Software System",
     description: "Comprehensive medicine finding system with mobile app, POS system, and web application for seamless healthcare management.",
     longDescription: "A comprehensive software group project based on a system of finding medicine through a mobile app. Acting as Project Manager and Flutter mobile developer, this project includes a mobile app, POS system, and web application for complete healthcare solution.",
-    image: "src/assets/projects/lp.png",
+    image: lpImg,
     technologies: ["Flutter", "Mobile Development", "POS System", "Web App", "Project Management"],
     githubUrl: "https://github.com/orgs/Life-Pill/repositories",
     demoUrl: null,
@@ -57,7 +65,7 @@ const projects = [
     title: "TravelTrails Social Media Web Application",
     description: "MERN stack social media platform designed specifically for travel enthusiasts to share and discover travel experiences.",
     longDescription: "TravelTrails is a social media web application built with MERN stack for travel enthusiasts. Travellers can share their travel experiences, discover new destinations, and connect with fellow travelers through this comprehensive web application.",
-    image: "src/assets/projects/traveltrails.jpeg",
+    image: traveltrailsImg,
     technologies: ["MongoDB", "Express.js", "React", "Node.js", "MERN Stack"],
     githubUrl: "https://github.com/ChandulaJ/TravelTrails-MERN-stack-app",
     demoUrl: null,
@@ -69,7 +77,7 @@ const projects = [
     title: "Harvest~Link Mobile Application",
     description: "Fresh vegetables and fruits delivery app connecting local small-scale farmers with buyers, built with Flutter.",
     longDescription: "A fresh vegetables and fruits delivery app created with Flutter that connects local small-scale farmers directly with buyers. This platform helps farmers reach customers directly while providing buyers access to fresh, local produce.",
-    image: "src/assets/projects/hl.png",
+    image: hlImg,
     technologies: ["Flutter", "Mobile Development", "E-commerce", "Agriculture Tech"],
     githubUrl: "https://github.com/ChandulaJ/HarvestLink-Flutter-MobileApp",
     demoUrl: null,

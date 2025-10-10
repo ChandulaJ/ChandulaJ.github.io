@@ -2,6 +2,23 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Award, GraduationCap, Briefcase } from "lucide-react";
 
+// Import timeline images
+import cyberzeeImg from "@/assets/timeline/cyberzee.jpg";
+import axiomImg from "@/assets/timeline/axiom.jpg";
+import insl2Img from "@/assets/timeline/insl2.jpg";
+import ieee17Img from "@/assets/timeline/ieee17.jpeg";
+import eminenceImg from "@/assets/timeline/eminence.jpg";
+import roboImg from "@/assets/timeline/robo.jpeg";
+import uxploreImg from "@/assets/timeline/uxplore.jpg";
+import haxtremeImg from "@/assets/timeline/haxtreme.jpg";
+import ieee16Img from "@/assets/timeline/ieee16.png";
+import genesisImg from "@/assets/timeline/genesis.jpg";
+import insl1Img from "@/assets/timeline/insl1.jpeg";
+import cyberzee1Img from "@/assets/timeline/cyberzee1.jpg";
+import cimaPngImg from "@/assets/timeline/cima.png";
+import aromaticImg from "@/assets/timeline/aromatic.jpg";
+import mehewaraImg from "@/assets/timeline/mehewara.jpg";
+
 const timelineEvents = [
   {
     year: "2024",
@@ -11,7 +28,7 @@ const timelineEvents = [
     description:
       "Leading team CypherX, clinched the championship title at the Cyberzee 24 Interuniversity Cybersecurity Quiz Competition!",
     icon: CheckCircle,
-    image: "src/assets/timeline/cyberzee.jpg",
+    image: cyberzeeImg,
   },
   {
     year: "2024",
@@ -21,7 +38,7 @@ const timelineEvents = [
     description:
       "Conducted my first workshop on competitive programming as part of the Axiom workshop series with Tharindu Jayawardhana.",
     icon: GraduationCap,
-    image: "src/assets/timeline/axiom.jpg",
+    image: axiomImg,
   },
   {
     year: "2023",
@@ -31,7 +48,7 @@ const timelineEvents = [
     description:
       "As the team leader of Team Unimatrix , became the 2nd Runner-up at the INSL Southern provincial competition 2023 which was conducted by IEEE of University of Ruhuna.",
     icon: CheckCircle,
-    image: "src/assets/timeline/insl2.jpg",
+    image: insl2Img,
   },
   {
     year: "2023",
@@ -41,7 +58,7 @@ const timelineEvents = [
     description:
       "As the team leader of Team UniMatrix at the IEEE Xtreme 17.0 2023 competition secured the 2nd position at the University of Ruhuna and ranked 88th in the national standings for Sri Lanka.",
     icon: CheckCircle,
-    image: "src/assets/timeline/ieee17.jpeg",
+    image: ieee17Img,
   },
 
   {
@@ -52,7 +69,7 @@ const timelineEvents = [
     description:
       "As a member of Team UniMatrix, achieved Second runner-up at Eminence 3.0",
     icon: CheckCircle,
-    image: "src/assets/timeline/eminence.jpg",
+    image: eminenceImg,
   },
   {
     year: "2023",
@@ -61,7 +78,7 @@ const timelineEvents = [
     position: "Participant",
     description: "Created Artemis, line following and color recognition robot",
     icon: CheckCircle,
-    image: "src/assets/timeline/robo.jpeg",
+    image: roboImg,
   },
 
   {
@@ -71,7 +88,7 @@ const timelineEvents = [
     position: "Semi-finalist",
     description: "As the team leader of Team UniMatrix , became semi-finalists",
     icon: CheckCircle,
-    image: "src/assets/timeline/uxplore.jpg",
+    image: uxploreImg,
   },
 
   {
@@ -82,7 +99,7 @@ const timelineEvents = [
     description:
       "As a member of Team AROMATIC, achieved Second runner-up of HaXtreme1.0 2023",
     icon: CheckCircle,
-    image: "src/assets/timeline/haxtreme.jpg",
+    image: haxtremeImg,
   },
   {
     year: "2022",
@@ -92,7 +109,7 @@ const timelineEvents = [
     description:
       "As the team member of Team BitBorg at the IEEE Xtreme 16.0 2022 competition secured the 4th position at the University of Ruhuna and ranked 114th in the national standings for Sri Lanka.",
     icon: CheckCircle,
-    image: "src/assets/timeline/ieee16.png",
+    image: ieee16Img,
   },
   {
     year: "2022",
@@ -102,7 +119,7 @@ const timelineEvents = [
     description:
       "As a member of Team AROMATIC, reached finals in Genesiz 2022 competition.",
     icon: CheckCircle,
-    image: "src/assets/timeline/genesis.jpg",
+    image: genesisImg,
   },
   {
     year: "2022",
@@ -112,7 +129,7 @@ const timelineEvents = [
     description:
       "As the team leader of Team Unimatrix , became the Champions at the INSL Southern provincial competition 2022 which was conducted by IEEE of University of Ruhuna.",
     icon: CheckCircle,
-    image: "src/assets/timeline/insl1.jpeg",
+    image: insl1Img,
   },
     {
     year: "2022",
@@ -122,7 +139,7 @@ const timelineEvents = [
     description:
       "As a member of Team Aromatic, achieved Second Runner-up at CyberZee '22 Inter-University Quiz Competition on Cyber Security.",
     icon: CheckCircle,
-    image: "src/assets/timeline/cyberzee1.jpg",
+    image: cyberzee1Img,
   },
     {
     year: "2020",
@@ -132,7 +149,7 @@ const timelineEvents = [
     description:
       "Achieved the highest mark obtainable for a CIMA Cert BA Exam 150/150 for BA3- Fundamentals of Financial Accounting.",
     icon: CheckCircle,
-    image: "src/assets/timeline/cima.png",
+    image: cimaPngImg,
   },
   
     {
@@ -143,7 +160,7 @@ const timelineEvents = [
     description:
       "The achievements of Team Aromatic at several competitions was recognized in the official site of University of Ruhuna.",
     icon: CheckCircle,
-    image: "src/assets/timeline/aromatic.jpg",
+    image: aromaticImg,
   },
       {
     year: "2022",
@@ -153,7 +170,7 @@ const timelineEvents = [
     description:
       "Got the opportunity participate as a volunteer in the Mehewara Maths Seminar series conducted by Student Union of Faculty of Engineering, University of Ruhuna",
     icon: GraduationCap,
-    image: "src/assets/timeline/mehewara.jpg",
+    image: mehewaraImg,
   },
 ];
 

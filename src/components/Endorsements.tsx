@@ -1,13 +1,19 @@
 import { Card } from "@/components/ui/card";
 import { Quote, Star } from "lucide-react";
 
+// Import endorsement profile images
+import kushanImg from "@/assets/endosements/kushan.jpg";
+import hiranImg from "@/assets/endosements/hiran.jpg";
+import tusharaImg from "@/assets/endosements/tushara.jpg";
+import praneethImg from "@/assets/endosements/praneeth.jpg";
+
 const endorsements = [
 
   {
     name: "Dr. Kushan Sudheera",
     role: "Senior Lecturer",
     company: "University of Ruhuna - Electrical & Information Engineering",
-    image: "src/assets/endosements/kushan.jpg",
+    image: kushanImg,
     quote: "Chandula is an exemplary leader and skilled developer who played a crucial role in the success of the LifePill project. As Project Manager, he demonstrated exceptional leadership by ensuring seamless collaboration among team members. His expertise in managing AWS infrastructure and deployment ensured the system's reliability and scalability. His ability to balance technical expertise with leadership is commendable, reflecting innovation, dedication, and a drive to make meaningful contributions.",
     rating: 5,
     credentials: "PhD, Senior Academic",
@@ -17,7 +23,7 @@ const endorsements = [
     name: "Hiran Basnayaka",
     role: "Associate Cloud Engineer",
     company: "Sysco LABS",
-    image: "src/assets/endosements/hiran.jpg",
+    image: hiranImg,
     quote: "I had the pleasure of working with Chandula during his internship at LSEG, and I was truly impressed by his dedication and work ethic. He is a quick learner who consistently put in extra effort to ensure tasks were completed efficiently and on time. His strong collaboration with developers and QA engineers in automating integrations and regression testing significantly improved workflow efficiency. His solid foundation in AWS, Jenkins, Terraform, and Ansible, combined with his passion for learning, made him a valuable asset to our team.",
     rating: 5,
     credentials: "AWS SAA & Terraform Associate",
@@ -27,7 +33,7 @@ const endorsements = [
     name: "Prof. Tushara Chaminda",
     role: "Professor",
     company: "Faculty of Engineering, University of Ruhuna",
-    image: "src/assets/endosements/tushara.jpg",
+    image: tusharaImg,
     quote: "Mr. Chandula Jayathilake is one of my exceptional students who consistently demonstrates outstanding leadership qualities, effectively motivating and guiding teams to successful outcomes. His proficiency in effective communication, problem-solving, and collaboration, combined with academic excellence, makes him a motivated and hard-working engineering student. His positive attitude and delightful personality make him a valuable asset to any institute.",
     rating: 5,
     credentials: "Professor of Engineering",
@@ -37,7 +43,7 @@ const endorsements = [
     name: "Praneeth Sathsara Wijesinghe",
     role: "Lecturer",
     company: "Faculty of Engineering, University of Ruhuna",
-    image: "src/assets/endosements/praneeth.jpg",
+    image: praneethImg,
     quote: "Chandula is a multi-talented, dedicated, and enthusiastic engineering student who is always willing to accept challenges and finish them successfully in a timely manner. His engagement with extracurricular activities has improved his leadership and communication skills. He immensely supported our department in organizing the 'INSPIRE' guest lecture series. I can recommend Chandula as an all-rounder engineering student who possesses most of the employability skills expected by leading employers.",
     rating: 5,
     credentials: "Academic Lecturer",

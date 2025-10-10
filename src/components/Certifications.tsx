@@ -2,6 +2,16 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Award, Calendar } from "lucide-react";
 
+// Import certification images
+import solutionsArchitectImg from "@/assets/certs/solutions-architect.png";
+import sysopsAdminImg from "@/assets/certs/sysops-admin.png";
+import oracleImg from "@/assets/certs/oracle.png";
+import hackerrankImg from "@/assets/certs/hackerrank.jpeg";
+import courseraImg from "@/assets/certs/coursera.png";
+import eheImg from "@/assets/certs/ehe.jpg";
+import cimaImg from "@/assets/certs/cima.jpeg";
+import microsoftImg from "@/assets/certs/microsoft.jpg";
+
 const certifications = [
   {
     id: 1,
@@ -9,7 +19,7 @@ const certifications = [
     provider: "Amazon Web Services (AWS)",
     issueDate: "Apr 2025",
     expiryDate: "Apr 2028",
-    image: "src/assets/certs/solutions-architect.png",
+    image: solutionsArchitectImg,
     skills: ["Amazon Web Services (AWS)"],
   },
   {
@@ -18,7 +28,7 @@ const certifications = [
     provider: "Amazon Web Services (AWS)",
     issueDate: "Jan 2025",
     expiryDate: "Jan 2028",
-    image: "src/assets/certs/sysops-admin.png",
+    image: sysopsAdminImg,
     skills: ["Amazon Web Services (AWS)", "DevOps"],
   },
     {
@@ -27,7 +37,7 @@ const certifications = [
     provider: "Oracle",
     issueDate: "Mar 2021",
     expiryDate: null,
-    image: "src/assets/certs/oracle.png",
+    image: oracleImg,
     skills: ["Java"],
   },
   {
@@ -36,7 +46,7 @@ const certifications = [
     provider: "HackerRank",
     issueDate: "Jul 2023",
     expiryDate: null,
-    image: "src/assets/certs/hackerrank.jpeg",
+    image: hackerrankImg,
     skills: ["Java"],
   },
   {
@@ -45,7 +55,7 @@ const certifications = [
     provider: "Coursera",
     issueDate: "Jun 2023",
     expiryDate: null,
-    image: "src/assets/certs/coursera.png",
+    image: courseraImg,
     skills: ["Machine Learning"],
   },
   {
@@ -54,7 +64,7 @@ const certifications = [
     provider: "Coursera",
     issueDate: "Jun 2023",
     expiryDate: null,
-    image: "src/assets/certs/ehe.jpg",
+    image: eheImg,
     skills: ["Cybersecurity"],
   },
 
@@ -64,7 +74,7 @@ const certifications = [
     provider: "CIMA",
     issueDate: "Nov 2020",
     expiryDate: null,
-    image: "src/assets/certs/cima.jpeg",
+    image: cimaImg,
     skills: ["Management Accounting"],
   },
   {
@@ -73,7 +83,7 @@ const certifications = [
     provider: "Microsoft",
     issueDate: "Jan 2023",
     expiryDate: null,
-    image: "src/assets/certs/microsoft.jpg",
+    image: microsoftImg,
     skills: ["Machine Learning"],
   },
 ];
