@@ -53,26 +53,26 @@ export function CreatedTools() {
                 className="overflow-hidden hover-lift animate-scale-in border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-card to-card/80 backdrop-blur-sm"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="grid lg:grid-cols-3 gap-0">
-                  {/* Left Section - Main Info */}
-                  <div className="lg:col-span-2 p-8">
-                    <div className="flex items-start gap-4 mb-6">
-                      <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${tool.iconColor} flex items-center justify-center shadow-lg flex-shrink-0`}>
-                        <ToolIcon className="h-8 w-8 text-white" />
+                <div className="flex flex-col">
+                  {/* Main Info Section */}
+                  <div className="p-4 sm:p-6 lg:p-8">
+                    <div className="flex flex-col sm:flex-row items-start gap-4 mb-6">
+                      <div className={`w-12 h-12 sm:w-16 sm:h-16 rounded-2xl bg-gradient-to-br ${tool.iconColor} flex items-center justify-center shadow-lg flex-shrink-0`}>
+                        <ToolIcon className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
                       </div>
-                      <div className="flex-1">
-                        <div className="flex items-center gap-3 mb-2">
-                          <h3 className="text-2xl font-bold text-card-foreground">
+                      <div className="flex-1 w-full">
+                        <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 mb-2">
+                          <h3 className="text-xl sm:text-2xl font-bold text-card-foreground">
                             {tool.title}
                           </h3>
-                          <Badge variant="outline" className="bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300 border-green-300 dark:border-green-700">
+                          <Badge variant="outline" className="bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300 border-green-300 dark:border-green-700 w-fit">
                             {tool.status}
                           </Badge>
                         </div>
-                        <p className="text-muted-foreground mb-3">
+                        <p className="text-muted-foreground mb-3 text-sm sm:text-base">
                           {tool.description}
                         </p>
-                        <div className="flex items-center gap-4 text-sm text-muted-foreground">
+                        <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-sm text-muted-foreground">
                           <span className="flex items-center gap-1">
                             <Package className="h-4 w-4" />
                             v{tool.version}
@@ -81,7 +81,7 @@ export function CreatedTools() {
                             <Download className="h-4 w-4" />
                             {tool.downloads} downloads
                           </span>
-                          <Badge variant="secondary" className="text-xs">
+                          <Badge variant="secondary" className="text-xs w-fit">
                             {tool.category}
                           </Badge>
                         </div>
@@ -89,27 +89,27 @@ export function CreatedTools() {
                     </div>
 
                     <div className="mb-6">
-                      <p className="text-muted-foreground leading-relaxed">
+                      <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
                         {tool.longDescription}
                       </p>
                     </div>
 
-                    <div className="grid md:grid-cols-2 gap-6 mb-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-6">
                       <div>
-                        <h4 className="font-semibold mb-3 flex items-center gap-2">
+                        <h4 className="font-semibold mb-3 flex items-center gap-2 text-sm sm:text-base">
                           <Terminal className="h-4 w-4 text-primary" />
                           Installation
                         </h4>
-                        <div className="bg-muted/50 rounded-lg p-3 font-mono text-sm border">
+                        <div className="bg-muted/50 rounded-lg p-3 font-mono text-xs sm:text-sm border overflow-x-auto">
                           <code>{tool.installation}</code>
                         </div>
                       </div>
                       <div>
-                        <h4 className="font-semibold mb-3 flex items-center gap-2">
+                        <h4 className="font-semibold mb-3 flex items-center gap-2 text-sm sm:text-base">
                           <Zap className="h-4 w-4 text-primary" />
                           Usage
                         </h4>
-                        <div className="bg-muted/50 rounded-lg p-3 font-mono text-sm border">
+                        <div className="bg-muted/50 rounded-lg p-3 font-mono text-xs sm:text-sm border overflow-x-auto">
                           <code>{tool.usage}</code>
                         </div>
                       </div>
@@ -123,15 +123,15 @@ export function CreatedTools() {
                       ))}
                     </div>
 
-                    <div className="flex gap-3">
-                      <Button className="flex-1 sm:flex-none" asChild>
+                    <div className="flex flex-col sm:flex-row gap-3">
+                      <Button className="w-full sm:w-auto" asChild>
                         <a href={tool.pypiUrl} target="_blank" rel="noopener noreferrer">
                           <Package className="h-4 w-4 mr-2" />
                           View on PyPI
                         </a>
                       </Button>
                       {tool.githubUrl && (
-                        <Button variant="outline" className="flex-1 sm:flex-none" asChild>
+                        <Button variant="outline" className="w-full sm:w-auto" asChild>
                           <a href={tool.githubUrl} target="_blank" rel="noopener noreferrer">
                             <Github className="h-4 w-4 mr-2" />
                             Source Code
@@ -141,9 +141,9 @@ export function CreatedTools() {
                     </div>
                   </div>
 
-                  {/* Right Section - Features */}
-                  <div className="bg-gradient-to-br from-muted/20 to-muted/40 p-8 border-l border-border/50">
-                    <h4 className="font-semibold mb-4 flex items-center gap-2">
+                  {/* Features Section */}
+                  <div className="bg-gradient-to-br from-muted/20 to-muted/40 p-4 sm:p-6 lg:p-8 border-t lg:border-t-0 lg:border-l border-border/50">
+                    <h4 className="font-semibold mb-4 flex items-center gap-2 text-sm sm:text-base">
                       <Code className="h-4 w-4 text-primary" />
                       Key Features
                     </h4>
@@ -161,12 +161,6 @@ export function CreatedTools() {
                       ))}
                     </ul>
 
-                    <div className="mt-8 p-4 bg-primary/5 rounded-lg border border-primary/20">
-                      <h5 className="font-medium text-primary mb-2">🚀 What is Vagrant Creator?</h5>
-                      <p className="text-sm text-muted-foreground leading-relaxed">
-                        Designed to streamline Vagrant environments for both newcomers and experienced developers through automated configuration and setup.
-                      </p>
-                    </div>
                   </div>
                 </div>
               </Card>
