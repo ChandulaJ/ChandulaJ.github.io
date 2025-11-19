@@ -11,6 +11,7 @@ import courseraImg from "@/assets/certs/coursera.png";
 import eheImg from "@/assets/certs/ehe.jpg";
 import cimaImg from "@/assets/certs/cima.jpeg";
 import microsoftImg from "@/assets/certs/microsoft.jpg";
+import aviatrixImg from "@/assets/certs/aviatrix.png";
 
 const certifications = [
   {
@@ -20,7 +21,7 @@ const certifications = [
     issueDate: "Apr 2025",
     expiryDate: "Apr 2028",
     image: solutionsArchitectImg,
-    skills: ["Amazon Web Services (AWS)"],
+    skills: ["Amazon Web Services (AWS)", "Cloud Solutions"],
   },
   {
     id: 2,
@@ -29,10 +30,19 @@ const certifications = [
     issueDate: "Jan 2025",
     expiryDate: "Jan 2028",
     image: sysopsAdminImg,
-    skills: ["Amazon Web Services (AWS)", "DevOps"],
+    skills: ["Amazon Web Services (AWS)", "Cloud Admin"],
   },
     {
     id: 3,
+    title: "Aviatrix - Multicloud Network Associate",
+    provider: "Aviatrix",
+    issueDate: "Oct 2025",
+    expiryDate: "Oct 2028",
+    image: aviatrixImg,
+    skills: ["Multicloud","AWS", "Azure","GCP","OCI", "DevOps"],
+  },
+    {
+    id: 4,
     title: "Oracle Certified Associate, Java SE 8 Programmer",
     provider: "Oracle",
     issueDate: "Mar 2021",
@@ -41,7 +51,7 @@ const certifications = [
     skills: ["Java"],
   },
   {
-    id: 4,
+    id: 5,
     title: "HackerRank Java Basic Certificate",
     provider: "HackerRank",
     issueDate: "Jul 2023",
@@ -50,7 +60,7 @@ const certifications = [
     skills: ["Java"],
   },
   {
-    id: 5,
+    id: 6,
     title: "Supervised Machine Learning: Regression and Classification",
     provider: "Coursera",
     issueDate: "Jun 2023",
@@ -59,7 +69,7 @@ const certifications = [
     skills: ["Machine Learning"],
   },
   {
-    id: 6,
+    id: 7,
     title: "Ethical Hacking Essentials (EHE)",
     provider: "Coursera",
     issueDate: "Jun 2023",
@@ -69,7 +79,7 @@ const certifications = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Diploma in Management Accounting",
     provider: "CIMA",
     issueDate: "Nov 2020",
@@ -78,7 +88,7 @@ const certifications = [
     skills: ["Management Accounting"],
   },
   {
-    id: 8,
+    id: 9,
     title: "Microsoft Learn AI Skills Challenge",
     provider: "Microsoft",
     issueDate: "Jan 2023",
