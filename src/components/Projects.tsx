@@ -10,7 +10,7 @@ import ttcicdImg from "@/assets/projects/ttcicd.jpg";
 import lpImg from "@/assets/projects/lp.png";
 import traveltrailsImg from "@/assets/projects/traveltrails.jpeg";
 import hlImg from "@/assets/projects/hl.png";
-
+import assetCoreImg from "@/assets/projects/assetcore.png"
 const projects = [
   {
     title: "Enhancing NS-3 for Distributed Network Simulation",
@@ -22,7 +22,19 @@ const projects = [
     demoUrl: null,
     stars: 0,
     featured: true,
-    status: "Ongoing",
+    status: "Completed",
+  },
+      {
+    title: "AssetCore (WSO2 DevOps Project)",
+    description: "Complete GitOps CI/CD pipeline for a microservices auction platform with Kubernetes orchestration and comprehensive monitoring.",
+    longDescription: "Engineered a robust, multi-environment infrastructure on AWS using Terraform, implementing remote state management to ensure consistency, state locking, and secure collaboration. The architecture adhered to strict best practices, featuring custom Helm Charts for Kubernetes deployment and Istio for service mesh management. To guarantee system reliability, I integrated a comprehensive observability stack using Datadog and OpenSearch.",
+    image: assetCoreImg,
+    technologies: ["GitHub Actions","Terraform", "DynamoDB", "S3", "ArgoCD", "Kubernetes", "Istio", "Docker", "DataDog"],
+    githubUrl: "https://github.com/AssetCore",
+    demoUrl: null,
+    stars: 0,
+    featured: true,
+    status: "Completed",
   },
     {
     title: "AuctionHub",
