@@ -6,10 +6,10 @@ import viduraLogo from "@/assets/vidura-logo.jpeg";
 
 const educationData = [
   {
-    period: "2020 - Present",
+    period: "2020 - 2025",
     institution: "University of Ruhuna",
     degree: "BScEng Computer Engineering",
-    status: "Undergraduate",
+    status: "Graduate",
     description: "Currently pursuing Bachelor of Science in Engineering (Computer Engineering), gaining comprehensive knowledge in computer systems, software engineering, algorithms, data structures, and emerging technologies. Developing expertise in both hardware and software aspects of computing.",
     logo: ruhuneLogo,
     location: "Galle, Sri Lanka"

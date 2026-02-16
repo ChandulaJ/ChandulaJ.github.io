@@ -1,6 +1,6 @@
 # Chandula Jayathilake - Portfolio Website
 
-Welcome to my personal portfolio website! This is a modern, responsive portfolio showcasing my journey as a DevOps Engineering undergraduate, projects, certifications, and professional experience.
+Welcome to my personal portfolio website! This is a modern, responsive portfolio showcasing my journey as a DevOps Engineering graduate, projects, certifications, and professional experience.
 
 ## 🌟 Live Demo
 
@@ -8,7 +8,7 @@ Visit my portfolio at: [chandulaJ.github.io](https://chandulaJ.github.io)
 
 ## 📋 About
 
-I'm Chandula Jayathilake, a passionate DevOps Engineering undergraduate with hands-on experience in cloud infrastructure, automation, and building scalable systems. This portfolio showcases my:
+I'm Chandula Jayathilake, a passionate DevOps Engineering graduate with hands-on experience in cloud infrastructure, automation, and building scalable systems. This portfolio showcases my:
 
 - Professional experience and timeline
 - Technical projects and achievements

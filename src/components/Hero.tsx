@@ -23,12 +23,12 @@ export function Hero() {
             </h1>
             <h2 className="text-2xl md:text-4xl mb-6 font-semibold">
               <span className="bg-gradient-to-r from-primary via-blue-500 to-cyan-400 bg-clip-text text-transparent">
-                DevOps Engineering Undergraduate
+                DevOps Engineering Graduate
               </span>
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               Passionate about cloud infrastructure, automation, and building scalable systems. 
-              Currently pursuing my degree while gaining hands-on experience with modern DevOps 
+              Currently exploring cloud systems gaining hands-on experience with modern DevOps 
               practices and technologies.
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
